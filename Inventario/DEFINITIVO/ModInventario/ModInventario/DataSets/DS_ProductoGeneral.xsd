@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ProductoGeneral" targetNamespace="DS_ProductoGeneral.xsd" xmlns:mstns="DS_ProductoGeneral.xsd" xmlns="DS_ProductoGeneral.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="" GeneratorFunctionsComponentClassName="TableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="InventarioConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InventarioConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OrdenPedido.My.MySettings.GlobalReference.Default.InventarioConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="CadenaCon" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CadenaCon (MySettings)" PropertyReference="ApplicationSettings.OrdenPedido.My.MySettings.GlobalReference.Default.CadenaCon" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.OrdenPedido.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vst_MOVIMIENTOSTableAdapter" GeneratorDataComponentClassName="vst_MOVIMIENTOSTableAdapter" Name="vst_MOVIMIENTOS" UserDataComponentName="vst_MOVIMIENTOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.vst_MOVIMIENTOS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CODIGO_BODEGA, nombre, CODIGO_PRODUCTO, NOMBRE_PRODUCTO, CODIGO_TIPO, descripcion, fecha_registro, cantidad, valor_unitario, valor_total FROM dbo.vst_MOVIMIENTOS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CODIGO_BODEGA" DataSetColumn="CODIGO_BODEGA" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="CODIGO_PRODUCTO" DataSetColumn="CODIGO_PRODUCTO" />
+              <Mapping SourceColumn="NOMBRE_PRODUCTO" DataSetColumn="NOMBRE_PRODUCTO" />
+              <Mapping SourceColumn="CODIGO_TIPO" DataSetColumn="CODIGO_TIPO" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="fecha_registro" DataSetColumn="fecha_registro" />
+              <Mapping SourceColumn="cantidad" DataSetColumn="cantidad" />
+              <Mapping SourceColumn="valor_unitario" DataSetColumn="valor_unitario" />
+              <Mapping SourceColumn="valor_total" DataSetColumn="valor_total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RPT_INV_PRODUCTOXBODEGATableAdapter" GeneratorDataComponentClassName="RPT_INV_PRODUCTOXBODEGATableAdapter" Name="RPT_INV_PRODUCTOXBODEGA" UserDataComponentName="RPT_INV_PRODUCTOXBODEGATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.RPT_INV_PRODUCTOXBODEGA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.RPT_INV_PRODUCTOXBODEGA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@codigo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Codigo_Producto" DataSetColumn="Codigo_Producto" />
+              <Mapping SourceColumn="Nombre_Producto" DataSetColumn="Nombre_Producto" />
+              <Mapping SourceColumn="Codigo_Bodega" DataSetColumn="Codigo_Bodega" />
+              <Mapping SourceColumn="Nombre_Bodega" DataSetColumn="Nombre_Bodega" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vst_ProductoxBodegaTableAdapter" GeneratorDataComponentClassName="vst_ProductoxBodegaTableAdapter" Name="vst_ProductoxBodega" UserDataComponentName="vst_ProductoxBodegaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.vst_ProductoxBodega" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Codigo_Producto, Nombre_Producto, Codigo_Bodega, Nombre_Bodega FROM dbo.vst_ProductoxBodega</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Codigo_Producto" DataSetColumn="Codigo_Producto" />
+              <Mapping SourceColumn="Nombre_Producto" DataSetColumn="Nombre_Producto" />
+              <Mapping SourceColumn="Codigo_Bodega" DataSetColumn="Codigo_Bodega" />
+              <Mapping SourceColumn="Nombre_Bodega" DataSetColumn="Nombre_Bodega" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RPT_INV_PRODUCTOSACTIVOSTableAdapter" GeneratorDataComponentClassName="RPT_INV_PRODUCTOSACTIVOSTableAdapter" Name="RPT_INV_PRODUCTOSACTIVOS" UserDataComponentName="RPT_INV_PRODUCTOSACTIVOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.RPT_INV_PRODUCTOSACTIVOS" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.RPT_INV_PRODUCTOSACTIVOS</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo" DataSetColumn="codigo" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="grupo" DataSetColumn="grupo" />
+              <Mapping SourceColumn="subgrupo" DataSetColumn="subgrupo" />
+              <Mapping SourceColumn="marca" DataSetColumn="marca" />
+              <Mapping SourceColumn="presentacion" DataSetColumn="presentacion" />
+              <Mapping SourceColumn="observacion" DataSetColumn="observacion" />
+              <Mapping SourceColumn="iva" DataSetColumn="iva" />
+              <Mapping SourceColumn="estado" DataSetColumn="estado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RPT_INV_KARDEXTableAdapter" GeneratorDataComponentClassName="RPT_INV_KARDEXTableAdapter" Name="RPT_INV_KARDEX" UserDataComponentName="RPT_INV_KARDEXTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.RPT_INV_KARDEX" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.RPT_INV_KARDEX</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@producto" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@bodega" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@fecha1" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@fecha2" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="descripcion1" DataSetColumn="descripcion1" />
+              <Mapping SourceColumn="nombre1" DataSetColumn="nombre1" />
+              <Mapping SourceColumn="descripcion2" DataSetColumn="descripcion2" />
+              <Mapping SourceColumn="fecha" DataSetColumn="fecha" />
+              <Mapping SourceColumn="existencia_actual" DataSetColumn="existencia_actual" />
+              <Mapping SourceColumn="existencia_minima" DataSetColumn="existencia_minima" />
+              <Mapping SourceColumn="existencia_maxima" DataSetColumn="existencia_maxima" />
+              <Mapping SourceColumn="fecha_registro" DataSetColumn="fecha_registro" />
+              <Mapping SourceColumn="cantidad" DataSetColumn="cantidad" />
+              <Mapping SourceColumn="valor_unitario" DataSetColumn="valor_unitario" />
+              <Mapping SourceColumn="valor_total" DataSetColumn="valor_total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RPT_INV_PRODUCTOSINACTIVOSTableAdapter" GeneratorDataComponentClassName="RPT_INV_PRODUCTOSINACTIVOSTableAdapter" Name="RPT_INV_PRODUCTOSINACTIVOS" UserDataComponentName="RPT_INV_PRODUCTOSINACTIVOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.RPT_INV_PRODUCTOSINACTIVOS" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.RPT_INV_PRODUCTOSINACTIVOS</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo" DataSetColumn="codigo" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="grupo" DataSetColumn="grupo" />
+              <Mapping SourceColumn="subgrupo" DataSetColumn="subgrupo" />
+              <Mapping SourceColumn="marca" DataSetColumn="marca" />
+              <Mapping SourceColumn="presentacion" DataSetColumn="presentacion" />
+              <Mapping SourceColumn="observacion" DataSetColumn="observacion" />
+              <Mapping SourceColumn="iva" DataSetColumn="iva" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RPT_INV_PRODUCTOSXGRUPOTableAdapter" GeneratorDataComponentClassName="RPT_INV_PRODUCTOSXGRUPOTableAdapter" Name="RPT_INV_PRODUCTOSXGRUPO" UserDataComponentName="RPT_INV_PRODUCTOSXGRUPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InventarioConnectionString (MySettings)" DbObjectName="Inventario.dbo.RPT_INV_PRODUCTOSXGRUPO" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.RPT_INV_PRODUCTOSXGRUPO</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@grupo" Precision="0" ProviderType="NVarChar" Scale="0" Size="30" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@subgrupo" Precision="0" ProviderType="NVarChar" Scale="0" Size="30" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="grupo" DataSetColumn="grupo" />
+              <Mapping SourceColumn="subgrupo" DataSetColumn="subgrupo" />
+              <Mapping SourceColumn="producto" DataSetColumn="producto" />
+              <Mapping SourceColumn="marca" DataSetColumn="marca" />
+              <Mapping SourceColumn="presentacion" DataSetColumn="presentacion" />
+              <Mapping SourceColumn="iva" DataSetColumn="iva" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="COSTO_INVENTARIO;1TableAdapter" GeneratorDataComponentClassName="COSTO_INVENTARIO_1TableAdapter" Name="COSTO_INVENTARIO;1" UserDataComponentName="COSTO_INVENTARIO;1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="Inventario.dbo.[COSTO_INVENTARIO;1]" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.[COSTO_INVENTARIO;1]</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Integer" Scale="255" Size="2147483647" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@bodega" Precision="10" ProviderType="Integer" Scale="255" Size="2147483647" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ProductoGeneral" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_ProductoGeneral" msprop:Generator_DataSetName="DS_ProductoGeneral" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_ProductoGeneral" msprop:Generator_UserTableName="dt_ProductoGeneral" msprop:Generator_RowDeletedName="dt_ProductoGeneralRowDeleted" msprop:Generator_RowChangedName="dt_ProductoGeneralRowChanged" msprop:Generator_RowClassName="dt_ProductoGeneralRow" msprop:Generator_RowChangingName="dt_ProductoGeneralRowChanging" msprop:Generator_RowEvArgName="dt_ProductoGeneralRowChangeEvent" msprop:Generator_RowEvHandlerName="dt_ProductoGeneralRowChangeEventHandler" msprop:Generator_TableClassName="dt_ProductoGeneralDataTable" msprop:Generator_TableVarName="tabledt_ProductoGeneral" msprop:Generator_RowDeletingName="dt_ProductoGeneralRowDeleting" msprop:Generator_TablePropName="dt_ProductoGeneral">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_UserColumnName="codigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInTable="grupoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="subgrupo" msprop:Generator_UserColumnName="subgrupo" msprop:Generator_ColumnPropNameInRow="subgrupo" msprop:Generator_ColumnVarNameInTable="columnsubgrupo" msprop:Generator_ColumnPropNameInTable="subgrupoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInTable="marcaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="presentacion" msprop:Generator_UserColumnName="presentacion" msprop:Generator_ColumnPropNameInRow="presentacion" msprop:Generator_ColumnVarNameInTable="columnpresentacion" msprop:Generator_ColumnPropNameInTable="presentacionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="observacion" msprop:Generator_UserColumnName="observacion" msprop:Generator_ColumnPropNameInRow="observacion" msprop:Generator_ColumnVarNameInTable="columnobservacion" msprop:Generator_ColumnPropNameInTable="observacionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="iva" msprop:Generator_UserColumnName="iva" msprop:Generator_ColumnPropNameInRow="iva" msprop:Generator_ColumnVarNameInTable="columniva" msprop:Generator_ColumnPropNameInTable="ivaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msprop:Generator_UserColumnName="estado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInTable="estadoColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vst_MOVIMIENTOS" msprop:Generator_UserTableName="vst_MOVIMIENTOS" msprop:Generator_RowDeletedName="vst_MOVIMIENTOSRowDeleted" msprop:Generator_RowChangedName="vst_MOVIMIENTOSRowChanged" msprop:Generator_RowClassName="vst_MOVIMIENTOSRow" msprop:Generator_RowChangingName="vst_MOVIMIENTOSRowChanging" msprop:Generator_RowEvArgName="vst_MOVIMIENTOSRowChangeEvent" msprop:Generator_RowEvHandlerName="vst_MOVIMIENTOSRowChangeEventHandler" msprop:Generator_TableClassName="vst_MOVIMIENTOSDataTable" msprop:Generator_TableVarName="tablevst_MOVIMIENTOS" msprop:Generator_RowDeletingName="vst_MOVIMIENTOSRowDeleting" msprop:Generator_TablePropName="vst_MOVIMIENTOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CODIGO_BODEGA" msprop:Generator_UserColumnName="CODIGO_BODEGA" msprop:Generator_ColumnPropNameInRow="CODIGO_BODEGA" msprop:Generator_ColumnVarNameInTable="columnCODIGO_BODEGA" msprop:Generator_ColumnPropNameInTable="CODIGO_BODEGAColumn" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CODIGO_PRODUCTO" msprop:Generator_UserColumnName="CODIGO_PRODUCTO" msprop:Generator_ColumnPropNameInRow="CODIGO_PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnCODIGO_PRODUCTO" msprop:Generator_ColumnPropNameInTable="CODIGO_PRODUCTOColumn" type="xs:int" />
+              <xs:element name="NOMBRE_PRODUCTO" msprop:Generator_UserColumnName="NOMBRE_PRODUCTO" msprop:Generator_ColumnPropNameInRow="NOMBRE_PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_PRODUCTO" msprop:Generator_ColumnPropNameInTable="NOMBRE_PRODUCTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CODIGO_TIPO" msprop:Generator_UserColumnName="CODIGO_TIPO" msprop:Generator_ColumnPropNameInRow="CODIGO_TIPO" msprop:Generator_ColumnVarNameInTable="columnCODIGO_TIPO" msprop:Generator_ColumnPropNameInTable="CODIGO_TIPOColumn" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_UserColumnName="descripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_registro" msprop:Generator_UserColumnName="fecha_registro" msprop:Generator_ColumnPropNameInRow="fecha_registro" msprop:Generator_ColumnVarNameInTable="columnfecha_registro" msprop:Generator_ColumnPropNameInTable="fecha_registroColumn" type="xs:dateTime" />
+              <xs:element name="cantidad" msprop:Generator_UserColumnName="cantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" type="xs:int" />
+              <xs:element name="valor_unitario" msprop:Generator_UserColumnName="valor_unitario" msprop:Generator_ColumnPropNameInRow="valor_unitario" msprop:Generator_ColumnVarNameInTable="columnvalor_unitario" msprop:Generator_ColumnPropNameInTable="valor_unitarioColumn" type="xs:float" />
+              <xs:element name="valor_total" msprop:Generator_UserColumnName="valor_total" msprop:Generator_ColumnPropNameInRow="valor_total" msprop:Generator_ColumnVarNameInTable="columnvalor_total" msprop:Generator_ColumnPropNameInTable="valor_totalColumn" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RPT_INV_PRODUCTOXBODEGA" msprop:Generator_UserTableName="RPT_INV_PRODUCTOXBODEGA" msprop:Generator_RowDeletedName="RPT_INV_PRODUCTOXBODEGARowDeleted" msprop:Generator_RowChangedName="RPT_INV_PRODUCTOXBODEGARowChanged" msprop:Generator_RowClassName="RPT_INV_PRODUCTOXBODEGARow" msprop:Generator_RowChangingName="RPT_INV_PRODUCTOXBODEGARowChanging" msprop:Generator_RowEvArgName="RPT_INV_PRODUCTOXBODEGARowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_INV_PRODUCTOXBODEGARowChangeEventHandler" msprop:Generator_TableClassName="RPT_INV_PRODUCTOXBODEGADataTable" msprop:Generator_TableVarName="tableRPT_INV_PRODUCTOXBODEGA" msprop:Generator_RowDeletingName="RPT_INV_PRODUCTOXBODEGARowDeleting" msprop:Generator_TablePropName="RPT_INV_PRODUCTOXBODEGA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo_Producto" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Codigo_Producto" msprop:Generator_ColumnVarNameInTable="columnCodigo_Producto" msprop:Generator_ColumnPropNameInRow="Codigo_Producto" msprop:Generator_ColumnPropNameInTable="Codigo_ProductoColumn" type="xs:int" />
+              <xs:element name="Nombre_Producto" msprop:Generator_UserColumnName="Nombre_Producto" msprop:Generator_ColumnVarNameInTable="columnNombre_Producto" msprop:Generator_ColumnPropNameInRow="Nombre_Producto" msprop:Generator_ColumnPropNameInTable="Nombre_ProductoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Codigo_Bodega" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Codigo_Bodega" msprop:Generator_ColumnVarNameInTable="columnCodigo_Bodega" msprop:Generator_ColumnPropNameInRow="Codigo_Bodega" msprop:Generator_ColumnPropNameInTable="Codigo_BodegaColumn" type="xs:int" />
+              <xs:element name="Nombre_Bodega" msprop:Generator_UserColumnName="Nombre_Bodega" msprop:Generator_ColumnVarNameInTable="columnNombre_Bodega" msprop:Generator_ColumnPropNameInRow="Nombre_Bodega" msprop:Generator_ColumnPropNameInTable="Nombre_BodegaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vst_ProductoxBodega" msprop:Generator_UserTableName="vst_ProductoxBodega" msprop:Generator_RowDeletedName="vst_ProductoxBodegaRowDeleted" msprop:Generator_RowChangedName="vst_ProductoxBodegaRowChanged" msprop:Generator_RowClassName="vst_ProductoxBodegaRow" msprop:Generator_RowChangingName="vst_ProductoxBodegaRowChanging" msprop:Generator_RowEvArgName="vst_ProductoxBodegaRowChangeEvent" msprop:Generator_RowEvHandlerName="vst_ProductoxBodegaRowChangeEventHandler" msprop:Generator_TableClassName="vst_ProductoxBodegaDataTable" msprop:Generator_TableVarName="tablevst_ProductoxBodega" msprop:Generator_RowDeletingName="vst_ProductoxBodegaRowDeleting" msprop:Generator_TablePropName="vst_ProductoxBodega">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo_Producto" msprop:Generator_UserColumnName="Codigo_Producto" msprop:Generator_ColumnVarNameInTable="columnCodigo_Producto" msprop:Generator_ColumnPropNameInRow="Codigo_Producto" msprop:Generator_ColumnPropNameInTable="Codigo_ProductoColumn" type="xs:int" />
+              <xs:element name="Nombre_Producto" msprop:Generator_UserColumnName="Nombre_Producto" msprop:Generator_ColumnVarNameInTable="columnNombre_Producto" msprop:Generator_ColumnPropNameInRow="Nombre_Producto" msprop:Generator_ColumnPropNameInTable="Nombre_ProductoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Codigo_Bodega" msprop:Generator_UserColumnName="Codigo_Bodega" msprop:Generator_ColumnVarNameInTable="columnCodigo_Bodega" msprop:Generator_ColumnPropNameInRow="Codigo_Bodega" msprop:Generator_ColumnPropNameInTable="Codigo_BodegaColumn" type="xs:int" />
+              <xs:element name="Nombre_Bodega" msprop:Generator_UserColumnName="Nombre_Bodega" msprop:Generator_ColumnVarNameInTable="columnNombre_Bodega" msprop:Generator_ColumnPropNameInRow="Nombre_Bodega" msprop:Generator_ColumnPropNameInTable="Nombre_BodegaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RPT_INV_PRODUCTOSACTIVOS" msprop:Generator_UserTableName="RPT_INV_PRODUCTOSACTIVOS" msprop:Generator_RowDeletedName="RPT_INV_PRODUCTOSACTIVOSRowDeleted" msprop:Generator_RowChangedName="RPT_INV_PRODUCTOSACTIVOSRowChanged" msprop:Generator_RowClassName="RPT_INV_PRODUCTOSACTIVOSRow" msprop:Generator_RowChangingName="RPT_INV_PRODUCTOSACTIVOSRowChanging" msprop:Generator_RowEvArgName="RPT_INV_PRODUCTOSACTIVOSRowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_INV_PRODUCTOSACTIVOSRowChangeEventHandler" msprop:Generator_TableClassName="RPT_INV_PRODUCTOSACTIVOSDataTable" msprop:Generator_TableVarName="tableRPT_INV_PRODUCTOSACTIVOS" msprop:Generator_RowDeletingName="RPT_INV_PRODUCTOSACTIVOSRowDeleting" msprop:Generator_TablePropName="RPT_INV_PRODUCTOSACTIVOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="codigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInTable="grupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subgrupo" msprop:Generator_UserColumnName="subgrupo" msprop:Generator_ColumnPropNameInRow="subgrupo" msprop:Generator_ColumnVarNameInTable="columnsubgrupo" msprop:Generator_ColumnPropNameInTable="subgrupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInTable="marcaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="presentacion" msprop:Generator_UserColumnName="presentacion" msprop:Generator_ColumnPropNameInRow="presentacion" msprop:Generator_ColumnVarNameInTable="columnpresentacion" msprop:Generator_ColumnPropNameInTable="presentacionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="observacion" msprop:Generator_UserColumnName="observacion" msprop:Generator_ColumnPropNameInRow="observacion" msprop:Generator_ColumnVarNameInTable="columnobservacion" msprop:Generator_ColumnPropNameInTable="observacionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iva" msprop:Generator_UserColumnName="iva" msprop:Generator_ColumnPropNameInRow="iva" msprop:Generator_ColumnVarNameInTable="columniva" msprop:Generator_ColumnPropNameInTable="ivaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado" msprop:Generator_UserColumnName="estado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInTable="estadoColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RPT_INV_KARDEX" msprop:Generator_UserTableName="RPT_INV_KARDEX" msprop:Generator_RowDeletedName="RPT_INV_KARDEXRowDeleted" msprop:Generator_RowChangedName="RPT_INV_KARDEXRowChanged" msprop:Generator_RowClassName="RPT_INV_KARDEXRow" msprop:Generator_RowChangingName="RPT_INV_KARDEXRowChanging" msprop:Generator_RowEvArgName="RPT_INV_KARDEXRowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_INV_KARDEXRowChangeEventHandler" msprop:Generator_TableClassName="RPT_INV_KARDEXDataTable" msprop:Generator_TableVarName="tableRPT_INV_KARDEX" msprop:Generator_RowDeletingName="RPT_INV_KARDEXRowDeleting" msprop:Generator_TablePropName="RPT_INV_KARDEX">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion" msprop:Generator_UserColumnName="descripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion1" msprop:Generator_UserColumnName="descripcion1" msprop:Generator_ColumnPropNameInRow="descripcion1" msprop:Generator_ColumnVarNameInTable="columndescripcion1" msprop:Generator_ColumnPropNameInTable="descripcion1Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre1" msprop:Generator_UserColumnName="nombre1" msprop:Generator_ColumnPropNameInRow="nombre1" msprop:Generator_ColumnVarNameInTable="columnnombre1" msprop:Generator_ColumnPropNameInTable="nombre1Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion2" msprop:Generator_UserColumnName="descripcion2" msprop:Generator_ColumnPropNameInRow="descripcion2" msprop:Generator_ColumnVarNameInTable="columndescripcion2" msprop:Generator_ColumnPropNameInTable="descripcion2Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" type="xs:dateTime" />
+              <xs:element name="existencia_actual" msprop:Generator_UserColumnName="existencia_actual" msprop:Generator_ColumnPropNameInRow="existencia_actual" msprop:Generator_ColumnVarNameInTable="columnexistencia_actual" msprop:Generator_ColumnPropNameInTable="existencia_actualColumn" type="xs:int" />
+              <xs:element name="existencia_minima" msprop:Generator_UserColumnName="existencia_minima" msprop:Generator_ColumnPropNameInRow="existencia_minima" msprop:Generator_ColumnVarNameInTable="columnexistencia_minima" msprop:Generator_ColumnPropNameInTable="existencia_minimaColumn" type="xs:int" />
+              <xs:element name="existencia_maxima" msprop:Generator_UserColumnName="existencia_maxima" msprop:Generator_ColumnPropNameInRow="existencia_maxima" msprop:Generator_ColumnVarNameInTable="columnexistencia_maxima" msprop:Generator_ColumnPropNameInTable="existencia_maximaColumn" type="xs:int" />
+              <xs:element name="fecha_registro" msprop:Generator_UserColumnName="fecha_registro" msprop:Generator_ColumnPropNameInRow="fecha_registro" msprop:Generator_ColumnVarNameInTable="columnfecha_registro" msprop:Generator_ColumnPropNameInTable="fecha_registroColumn" type="xs:dateTime" />
+              <xs:element name="cantidad" msprop:Generator_UserColumnName="cantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" type="xs:int" />
+              <xs:element name="valor_unitario" msprop:Generator_UserColumnName="valor_unitario" msprop:Generator_ColumnPropNameInRow="valor_unitario" msprop:Generator_ColumnVarNameInTable="columnvalor_unitario" msprop:Generator_ColumnPropNameInTable="valor_unitarioColumn" type="xs:float" />
+              <xs:element name="valor_total" msprop:Generator_UserColumnName="valor_total" msprop:Generator_ColumnPropNameInRow="valor_total" msprop:Generator_ColumnVarNameInTable="columnvalor_total" msprop:Generator_ColumnPropNameInTable="valor_totalColumn" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RPT_INV_PRODUCTOSINACTIVOS" msprop:Generator_UserTableName="RPT_INV_PRODUCTOSINACTIVOS" msprop:Generator_RowDeletedName="RPT_INV_PRODUCTOSINACTIVOSRowDeleted" msprop:Generator_RowChangedName="RPT_INV_PRODUCTOSINACTIVOSRowChanged" msprop:Generator_RowClassName="RPT_INV_PRODUCTOSINACTIVOSRow" msprop:Generator_RowChangingName="RPT_INV_PRODUCTOSINACTIVOSRowChanging" msprop:Generator_RowEvArgName="RPT_INV_PRODUCTOSINACTIVOSRowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_INV_PRODUCTOSINACTIVOSRowChangeEventHandler" msprop:Generator_TableClassName="RPT_INV_PRODUCTOSINACTIVOSDataTable" msprop:Generator_TableVarName="tableRPT_INV_PRODUCTOSINACTIVOS" msprop:Generator_RowDeletingName="RPT_INV_PRODUCTOSINACTIVOSRowDeleting" msprop:Generator_TablePropName="RPT_INV_PRODUCTOSINACTIVOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnPropNameInTable="grupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subgrupo" msprop:Generator_UserColumnName="subgrupo" msprop:Generator_ColumnVarNameInTable="columnsubgrupo" msprop:Generator_ColumnPropNameInRow="subgrupo" msprop:Generator_ColumnPropNameInTable="subgrupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="presentacion" msprop:Generator_UserColumnName="presentacion" msprop:Generator_ColumnVarNameInTable="columnpresentacion" msprop:Generator_ColumnPropNameInRow="presentacion" msprop:Generator_ColumnPropNameInTable="presentacionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="observacion" msprop:Generator_UserColumnName="observacion" msprop:Generator_ColumnVarNameInTable="columnobservacion" msprop:Generator_ColumnPropNameInRow="observacion" msprop:Generator_ColumnPropNameInTable="observacionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iva" msprop:Generator_UserColumnName="iva" msprop:Generator_ColumnVarNameInTable="columniva" msprop:Generator_ColumnPropNameInRow="iva" msprop:Generator_ColumnPropNameInTable="ivaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RPT_INV_PRODUCTOSXGRUPO" msprop:Generator_UserTableName="RPT_INV_PRODUCTOSXGRUPO" msprop:Generator_RowDeletedName="RPT_INV_PRODUCTOSXGRUPORowDeleted" msprop:Generator_RowChangedName="RPT_INV_PRODUCTOSXGRUPORowChanged" msprop:Generator_RowClassName="RPT_INV_PRODUCTOSXGRUPORow" msprop:Generator_RowChangingName="RPT_INV_PRODUCTOSXGRUPORowChanging" msprop:Generator_RowEvArgName="RPT_INV_PRODUCTOSXGRUPORowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_INV_PRODUCTOSXGRUPORowChangeEventHandler" msprop:Generator_TableClassName="RPT_INV_PRODUCTOSXGRUPODataTable" msprop:Generator_TableVarName="tableRPT_INV_PRODUCTOSXGRUPO" msprop:Generator_RowDeletingName="RPT_INV_PRODUCTOSXGRUPORowDeleting" msprop:Generator_TablePropName="RPT_INV_PRODUCTOSXGRUPO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grupo" msprop:Generator_UserColumnName="grupo" msprop:Generator_ColumnPropNameInRow="grupo" msprop:Generator_ColumnVarNameInTable="columngrupo" msprop:Generator_ColumnPropNameInTable="grupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subgrupo" msprop:Generator_UserColumnName="subgrupo" msprop:Generator_ColumnPropNameInRow="subgrupo" msprop:Generator_ColumnVarNameInTable="columnsubgrupo" msprop:Generator_ColumnPropNameInTable="subgrupoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="producto" msprop:Generator_UserColumnName="producto" msprop:Generator_ColumnPropNameInRow="producto" msprop:Generator_ColumnVarNameInTable="columnproducto" msprop:Generator_ColumnPropNameInTable="productoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="marca" msprop:Generator_UserColumnName="marca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInTable="marcaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="presentacion" msprop:Generator_UserColumnName="presentacion" msprop:Generator_ColumnPropNameInRow="presentacion" msprop:Generator_ColumnVarNameInTable="columnpresentacion" msprop:Generator_ColumnPropNameInTable="presentacionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iva" msprop:Generator_UserColumnName="iva" msprop:Generator_ColumnPropNameInRow="iva" msprop:Generator_ColumnVarNameInTable="columniva" msprop:Generator_ColumnPropNameInTable="ivaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COSTO_INVENTARIO_x003B_1" msprop:Generator_UserTableName="COSTO_INVENTARIO;1" msprop:Generator_RowDeletedName="_COSTO_INVENTARIO_1RowDeleted" msprop:Generator_TableClassName="_COSTO_INVENTARIO_1DataTable" msprop:Generator_RowChangedName="_COSTO_INVENTARIO_1RowChanged" msprop:Generator_RowClassName="_COSTO_INVENTARIO_1Row" msprop:Generator_RowChangingName="_COSTO_INVENTARIO_1RowChanging" msprop:Generator_RowEvArgName="_COSTO_INVENTARIO_1RowChangeEvent" msprop:Generator_RowEvHandlerName="_COSTO_INVENTARIO_1RowChangeEventHandler" msprop:Generator_TablePropName="_COSTO_INVENTARIO_1" msprop:Generator_TableVarName="_tableCOSTO_INVENTARIO_1" msprop:Generator_RowDeletingName="_COSTO_INVENTARIO_1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Producto" msprop:Generator_UserColumnName="Producto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Bodega" msprop:Generator_UserColumnName="Bodega" msprop:Generator_ColumnPropNameInRow="Bodega" msprop:Generator_ColumnVarNameInTable="columnBodega" msprop:Generator_ColumnPropNameInTable="BodegaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_UserColumnName="Total" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInTable="TotalColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RPT_INV_PRODUCTOSACTIVOS" />
+      <xs:field xpath="mstns:codigo" />
+    </xs:unique>
+    <xs:unique name="RPT_INV_PRODUCTOSINACTIVOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RPT_INV_PRODUCTOSINACTIVOS" />
+      <xs:field xpath="mstns:codigo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

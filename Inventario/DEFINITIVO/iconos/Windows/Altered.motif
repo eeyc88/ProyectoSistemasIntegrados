@@ -1,0 +1,49 @@
+[Software Credits]
+Software=Microangelo(tm)
+Company=Impact Software
+Website=http://www.impactsoft.com
+
+[SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\Shell Icons]
+21=%Folder%Altered Settings.ico,0
+23=%Folder%Altered Help.ico,0
+27=%Folder%Altered Shut Down.ico,0
+5=%Folder%Altered Floppy Drive 5.25.ico,0
+6=%Folder%Altered Floppy Drive 3.5.ico,0
+8=%Folder%Altered Hard Drive.ico,0
+11=%Folder%Altered CD-ROM Drive.ico,0
+19=%Folder%Altered Programs.ico,0
+20=%Folder%Altered Documents.ico,0
+22=%Folder%Altered Find.ico,0
+24=%Folder%Altered Run.ico,0
+25=%Folder%Altered Suspend.ico,0
+3=%Folder%Altered Closed Folder.ico,0
+4=%Folder%Altered Open Folder.ico,0
+36=%Folder%Altered Program Group.ico,0
+29=%Folder%Altered Shortcut.ico,0
+40=%Folder%Altered Audio CD.ico,0
+7=%Folder%Altered Removeable Drive.ico,0
+0=%Folder%Altered Default Icon.ico,0
+2=%Folder%Altered Application.ico,0
+28=%Folder%Altered Share.ico,0
+
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%Folder%Altered My Computer.ico,0
+
+[CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\DefaultIcon]
+DefaultValue=%Folder%Altered Network Neighborhood.ico,0
+
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+empty=%Folder%Altered Recycle Empty.ico,0
+full=%Folder%Altered Recycle Full.ico,0
+
+[CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\DefaultIcon]
+DefaultValue=%Folder%Altered Control Panel.ico,0
+
+[CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\DefaultIcon]
+DefaultValue=%Folder%Altered Printers.ico,0
+
+[CLSID\{992CFFA0-F557-101A-88EC-00DD010CCC48}\DefaultIcon]
+DefaultValue=%Folder%Altered Dial-Up Networking.ico,0
+
+[CLSID\{FBF23B42-E3F0-101B-8488-00AA003E56F8}\DefaultIcon]
+DefaultValue=%Folder%Altered Internet Explorer.ico,0

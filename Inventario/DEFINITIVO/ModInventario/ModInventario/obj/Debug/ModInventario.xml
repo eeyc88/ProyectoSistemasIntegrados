@@ -1,0 +1,880 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ModInventario
+</name>
+</assembly>
+<members>
+<member name="T:OrdenPedido.DataSetInventario.TBL_INV_BODEGADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_KARDEXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_ORDEN_PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CIUDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_KARDEXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_ORDEN_PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DIRECCIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_ESTADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_GRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_MARCADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_SUBGRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_BODEGARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_KARDEXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_ORDEN_PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CIUDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_KARDEXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_ORDEN_PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DIRECCIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_ESTADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_GRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_MARCARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_SUBGRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_BODEGARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_KARDEXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CAB_ORDEN_PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_CIUDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_KARDEXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DET_ORDEN_PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_DIRECCIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_ESTADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_GRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_MARCARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario.TBL_INV_SUBGRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_BODEGATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_CAB_KARDEXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_CAB_ORDEN_PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_CIUDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_DET_KARDEXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_DET_ORDEN_PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_DIRECCIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_ESTADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_GRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_MARCATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_PRODUCTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TBL_INV_SUBGRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.UpdateUpdatedRows(OrdenPedido.DataSetInventario,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.UpdateInsertedRows(OrdenPedido.DataSetInventario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.UpdateDeletedRows(OrdenPedido.DataSetInventario,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.UpdateAll(OrdenPedido.DataSetInventario)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OrdenPedido.DataSetInventarioTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSet.TBL_INV_SUBGRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSet.TBL_INV_SUBGRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSet.TBL_INV_SUBGRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSetTableAdapters.TBL_INV_SUBGRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.SubGruDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet1.TBL_INV_ZONADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet1.TBL_INV_ZONARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet1.TBL_INV_ZONARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet1TableAdapters.TBL_INV_ZONATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet1TableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSet.TBL_INV_ZONADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSet.TBL_INV_ZONARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSet.TBL_INV_ZONARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSetTableAdapters.TBL_INV_ZONATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(OrdenPedido.ZONADataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(OrdenPedido.ZONADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(OrdenPedido.ZONADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.UpdateAll(OrdenPedido.ZONADataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OrdenPedido.ZONADataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:OrdenPedido.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:OrdenPedido.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:OrdenPedido.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:OrdenPedido.DataSet3.Inv_SubgrupoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet3.Inv_SubgrupoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet3.Inv_SubgrupoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet3TableAdapters.Inv_SubgrupoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ReporteExistencia">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSet.TBL_INV_GRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSet.TBL_INV_GRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSet.TBL_INV_GRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSetTableAdapters.TBL_INV_GRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.GRUPODataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSet.TBL_INV_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSet.TBL_INV_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSet.TBL_INV_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSetTableAdapters.TBL_INV_PRODUCTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(OrdenPedido.PRODUCTODataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(OrdenPedido.PRODUCTODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(OrdenPedido.PRODUCTODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.UpdateAll(OrdenPedido.PRODUCTODataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OrdenPedido.PRODUCTODataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:OrdenPedido.InventarioDataSet.Inv_ZonaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.InventarioDataSet.Inv_ZonaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.InventarioDataSet.Inv_ZonaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.InventarioDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.InventarioDataSetTableAdapters.Inv_ZonaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_BODEGADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_CAB_KARDEXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_GRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_BODEGARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_CAB_KARDEXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_GRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_BODEGARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_CAB_KARDEXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_GRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte.TBL_INV_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporte">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TBL_INV_BODEGATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TBL_INV_CAB_KARDEXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TBL_INV_GRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TBL_INV_PRODUCTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.UpdateUpdatedRows(OrdenPedido.DataSetReporte,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.UpdateInsertedRows(OrdenPedido.DataSetReporte,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.UpdateDeletedRows(OrdenPedido.DataSetReporte,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.UpdateAll(OrdenPedido.DataSetReporte)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OrdenPedido.DataSetReporteTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSet.TBL_INV_SUBGRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSet.TBL_INV_SUBGRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSet.TBL_INV_SUBGRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSetTableAdapters.TBL_INV_SUBGRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.SUBGRUPODataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSet.TBL_INV_BODEGADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSet.TBL_INV_BODEGARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSet.TBL_INV_BODEGARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSetTableAdapters.TBL_INV_BODEGATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.BODEGADataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet2.Inv_SubgrupoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet2.Inv_SubgrupoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DataSet2.Inv_SubgrupoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet2TableAdapters.Inv_SubgrupoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DataSet2TableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_MOVIMIENTOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOXBODEGADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_ProductoxBodegaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSACTIVOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_KARDEXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSINACTIVOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSXGRUPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral._COSTO_INVENTARIO_1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.dt_ProductoGeneralDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_MOVIMIENTOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOXBODEGARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_ProductoxBodegaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSACTIVOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_KARDEXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSINACTIVOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSXGRUPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral._COSTO_INVENTARIO_1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.dt_ProductoGeneralRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_MOVIMIENTOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOXBODEGARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.vst_ProductoxBodegaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSACTIVOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_KARDEXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSINACTIVOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.RPT_INV_PRODUCTOSXGRUPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral._COSTO_INVENTARIO_1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral.dt_ProductoGeneralRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneral">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.vst_MOVIMIENTOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.RPT_INV_PRODUCTOXBODEGATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.vst_ProductoxBodegaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.RPT_INV_PRODUCTOSACTIVOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.RPT_INV_KARDEXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.RPT_INV_PRODUCTOSINACTIVOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.RPT_INV_PRODUCTOSXGRUPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.COSTO_INVENTARIO_1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.UpdateUpdatedRows(OrdenPedido.DS_ProductoGeneral,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.UpdateInsertedRows(OrdenPedido.DS_ProductoGeneral,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.UpdateDeletedRows(OrdenPedido.DS_ProductoGeneral,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.UpdateAll(OrdenPedido.DS_ProductoGeneral)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OrdenPedido.DS_ProductoGeneralTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSet.TBL_INV_MARCADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSet.TBL_INV_MARCARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSet.TBL_INV_MARCARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSetTableAdapters.TBL_INV_MARCATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.MARCADataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSet.TBL_INV_CIUDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSet.TBL_INV_CIUDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSet.TBL_INV_CIUDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSetTableAdapters.TBL_INV_CIUDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OrdenPedido.CIUDADataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>

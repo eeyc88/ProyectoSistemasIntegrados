@@ -1,0 +1,11 @@
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources

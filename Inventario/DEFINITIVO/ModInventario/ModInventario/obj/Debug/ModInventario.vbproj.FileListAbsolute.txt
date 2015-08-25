@@ -1,0 +1,319 @@
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaOrden.resources
+D:\Priscilla Briggitte\ESPOL\2010-2011\sistemas Integrados\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaProducto.resources
+I:\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+I:\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+I:\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+I:\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+I:\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+I:\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+I:\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+I:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaOrden.resources
+I:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaProducto.resources
+I:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+I:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+I:\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+I:\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+J:\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+J:\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+J:\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+J:\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaOrden.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmBusquedaProducto.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_producto.resources
+J:\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+J:\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+J:\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+J:\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+J:\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoBodega.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoMarca.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_CambiarPrecioProducto.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_ProductoxBodega.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoBodega.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoMarca.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_CambiarPrecioProducto.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_ProductoxBodega.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Angelical\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Documents and Settings\InGriD\Escritorio\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+E:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+E:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+E:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoBodega.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+G:\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+G:\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+G:\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrden.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoBodega.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoMarca.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_CambiarValorProducto.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Marca.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_ProductoxBodega.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+G:\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.dll
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.pdb
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\bin\Debug\Clases.xml
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Documents and Settings\Angelical\Escritorio\PROTOTIPO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_existencia.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Mono.Security.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmContenedorReporte.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.pdb
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.xml
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmContenedorReporte.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Documents and Settings\Angelical\Escritorio\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmContenedorReporte.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config

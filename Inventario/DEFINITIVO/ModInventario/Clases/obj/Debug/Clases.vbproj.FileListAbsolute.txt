@@ -1,0 +1,27 @@
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\Clases.Resources.resources
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\Clases.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\Clases.dll
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\Clases.xml
+C:\Users\InGriD\Desktop\PROTOTIPO\ModInventario\Clases\obj\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.Resources.resources
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.dll
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.xml
+C:\Users\InGriD\Desktop\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.pdb
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.Resources.resources
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.vbproj.GenerateResource.Cache
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.dll
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.xml
+C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.pdb
