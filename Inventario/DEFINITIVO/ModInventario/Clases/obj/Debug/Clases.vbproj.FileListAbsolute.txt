@@ -25,3 +25,11 @@ C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\C
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.dll
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.xml
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.pdb
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.pdb
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\bin\Debug\Clases.xml
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.Resources.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.vbproj.GenerateResource.Cache
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.xml
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\Clases\obj\Debug\Clases.pdb

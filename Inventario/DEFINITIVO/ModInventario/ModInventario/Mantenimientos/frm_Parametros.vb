@@ -1,12 +1,13 @@
 ﻿Imports System.Data.OleDb
 Imports Clases
 
+
 Public Class frm_Parametros
     Dim obj_cls_marca As Cls_Marca
     Dim obj_cls_grupo As Cls_Grupo
     Dim obj_cls_Subgrupo As Cls_Subgrupo
     Dim obj_cls_ciudad As Cls_Ciudad
-    Dim con As OleDbConnection
+    'Dim con As OleDbConnection
     Dim cmd As New OleDbCommand
     Dim dr As OleDbDataReader
     Public codigo As Integer
@@ -53,7 +54,7 @@ Public Class frm_Parametros
         With cmd
             .CommandType = CommandType.Text
             .CommandText = "select MAXIMO=ISNULL(MAX(codigo),0)+1 from TBL_INV_SUBGRUPO"
-            .Connection = con
+            .Connection = conexion
         End With
         codigo = cmd.ExecuteScalar
         Me.TBL_INV_SUBGRUPOTableAdapter.Fill(Me.SUBGRUPODataSet.TBL_INV_SUBGRUPO)
@@ -66,7 +67,7 @@ Public Class frm_Parametros
     Public Sub valida_fila()
         Try
             With cmd
-                .Connection = con
+                .Connection = conexion
                 .CommandType = CommandType.StoredProcedure
                 .CommandText = "SP_Consulta_Subgrupo"
                 .Parameters.Clear()
@@ -176,7 +177,7 @@ Public Class frm_Parametros
             If bandera_marca = 0 Then
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_IngMarca"
                         .Parameters.Clear()
@@ -194,7 +195,7 @@ Public Class frm_Parametros
                 bandera_marca = 0
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_ModMarca"
                         .Parameters.Clear()
@@ -214,6 +215,15 @@ Public Class frm_Parametros
     End Sub
 
     Private Sub frm_Parametros_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim cmd As New OleDbCommand
+        Try
+            conectarse()
+            cmd.Connection = conexion
+            cmd = Nothing
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+
         Me.MdiParent = FrmPrincipal
         Nuevo()
         With dgv_subgrupo
@@ -244,7 +254,7 @@ Public Class frm_Parametros
         Dim res As Integer
         Try
             With cmd
-                .Connection = con
+                .Connection = conexion
                 .CommandType = CommandType.StoredProcedure
                 .CommandText = "SP_Cons_MarcaxProducto"
                 .Parameters.Clear()
@@ -260,7 +270,7 @@ Public Class frm_Parametros
                 If res = vbYes Then
                     Try
                         With cmd
-                            .Connection = con
+                            .Connection = conexion
                             .CommandType = CommandType.Text
                             .CommandText = "DELETE FROM TBL_INV_MARCA WHERE codigo=" & txt_codigo.Text
                         End With
@@ -300,7 +310,7 @@ Public Class frm_Parametros
             dato_eliminar = Me.dgv_subgrupo.Rows(Me.dgv_subgrupo.CurrentRow.Index).Cells(0).Value.ToString
             Try
                 With cmd
-                    .Connection = con
+                    .Connection = conexion
                     .CommandType = CommandType.StoredProcedure
                     .CommandText = "SP_Cons_SubgrupoxProducto"
                     .Parameters.Clear()
@@ -318,7 +328,7 @@ Public Class frm_Parametros
                         dgv_subgrupo.Rows.RemoveAt(e.RowIndex)
                         Try
                             With cmd
-                                .Connection = con
+                                .Connection = conexion
                                 .CommandType = CommandType.Text
                                 .CommandText = "DELETE FROM TBL_INV_SUBGRUPO WHERE codigo=" & dato_eliminar.ToString
                             End With
@@ -350,7 +360,7 @@ Public Class frm_Parametros
             If bandera_grupo = 0 Then
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_IngGrupo"
                         .Parameters.Clear()
@@ -369,7 +379,7 @@ Public Class frm_Parametros
                 bandera_grupo = 0
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_ModGrupo"
                         .Parameters.Clear()
@@ -417,7 +427,7 @@ Public Class frm_Parametros
         Dim res As Integer
         Try
             With cmd
-                .Connection = con
+                .Connection = conexion
                 .CommandType = CommandType.StoredProcedure
                 .CommandText = "SP_Cons_GrupoxProducto"
                 .Parameters.Clear()
@@ -433,7 +443,7 @@ Public Class frm_Parametros
                 If res = vbYes Then
                     Try
                         With cmd
-                            .Connection = con
+                            .Connection = conexion
                             .CommandType = CommandType.Text
                             .CommandText = "DELETE FROM TBL_INV_SUBGRUPO WHERE grupo=" & txt_codigoG.Text
                         End With
@@ -442,7 +452,7 @@ Public Class frm_Parametros
                     End Try
                     Try
                         With cmd
-                            .Connection = con
+                            .Connection = conexion
                             .CommandType = CommandType.Text
                             .CommandText = "DELETE FROM TBL_INV_GRUPO WHERE codigo=" & txt_codigoG.Text
                         End With
@@ -509,7 +519,7 @@ Public Class frm_Parametros
             If bandera_zona = 0 Then
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_IngCiudad"
                         .Parameters.Clear()
@@ -528,7 +538,7 @@ Public Class frm_Parametros
                 bandera_zona = 0
                 Try
                     With cmd
-                        .Connection = con
+                        .Connection = conexion
                         .CommandType = CommandType.StoredProcedure
                         .CommandText = "SP_ModCiudad"
                         .Parameters.Clear()
@@ -561,7 +571,7 @@ Public Class frm_Parametros
             dato_eliminar_zona = Me.dgv_zona.Rows(Me.dgv_zona.CurrentRow.Index).Cells(0).Value.ToString
             Try
                 With cmd
-                    .Connection = con
+                    .Connection = conexion
                     .CommandType = CommandType.StoredProcedure
                     .CommandText = "SP_Cons_ZonaCiudadxDireccion"
                     .Parameters.Clear()
@@ -579,7 +589,7 @@ Public Class frm_Parametros
                         dgv_zona.Rows.RemoveAt(e.RowIndex)
                         Try
                             With cmd
-                                .Connection = con
+                                .Connection = conexion
                                 .CommandType = CommandType.Text
                                 .CommandText = "DELETE FROM TBL_INV_ZONA WHERE codigo=" & dato_eliminar_zona
                             End With
@@ -608,7 +618,7 @@ Public Class frm_Parametros
     Private Sub btn_eliminarC_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_eliminarC.Click
         Try
             With cmd
-                .Connection = con
+                .Connection = conexion
                 .CommandType = CommandType.StoredProcedure
                 .CommandText = "SP_Cons_CiudadxZona"
                 .Parameters.Clear()
@@ -625,7 +635,7 @@ Public Class frm_Parametros
                 If res = vbYes Then
                     Try
                         With cmd
-                            .Connection = con
+                            .Connection = conexion
                             .CommandType = CommandType.Text
                             .CommandText = "DELETE FROM TBL_INV_ZONA WHERE ciudad=" & txt_codigoC.Text
                         End With
@@ -634,7 +644,7 @@ Public Class frm_Parametros
                     End Try
                     Try
                         With cmd
-                            .Connection = con
+                            .Connection = conexion
                             .CommandType = CommandType.Text
                             .CommandText = "DELETE FROM TBL_INV_CIUDAD WHERE codigo=" & txt_codigoC.Text
                         End With

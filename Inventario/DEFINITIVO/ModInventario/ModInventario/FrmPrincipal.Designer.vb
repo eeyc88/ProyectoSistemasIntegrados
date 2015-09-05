@@ -20,21 +20,21 @@ Partial Class FrmPrincipal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmPrincipal))
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip
-        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.MantenimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ProductoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.MarcaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.BodegaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
-        Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ProductoxBodegaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.OrdenPedidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.KardexToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ConsultasReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ReporteDeExistenciasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ReporteDeProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ReporteDeKardeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MantenimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MarcaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BodegaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProcesosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductoxBodegaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenPedidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KardexToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultasReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReporteDeExistenciasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReporteDeProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReporteDeKardeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,13 +51,13 @@ Partial Class FrmPrincipal
         '
         Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
-        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.SalirToolStripMenuItem.Text = "Cerra Módulo"
         '
         'MantenimientosToolStripMenuItem
@@ -65,25 +65,25 @@ Partial Class FrmPrincipal
         Me.MantenimientosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductoToolStripMenuItem, Me.MarcaToolStripMenuItem, Me.BodegaToolStripMenuItem1})
         Me.MantenimientosToolStripMenuItem.Image = CType(resources.GetObject("MantenimientosToolStripMenuItem.Image"), System.Drawing.Image)
         Me.MantenimientosToolStripMenuItem.Name = "MantenimientosToolStripMenuItem"
-        Me.MantenimientosToolStripMenuItem.Size = New System.Drawing.Size(110, 20)
+        Me.MantenimientosToolStripMenuItem.Size = New System.Drawing.Size(122, 20)
         Me.MantenimientosToolStripMenuItem.Text = "Mantenimientos"
         '
         'ProductoToolStripMenuItem
         '
         Me.ProductoToolStripMenuItem.Name = "ProductoToolStripMenuItem"
-        Me.ProductoToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.ProductoToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.ProductoToolStripMenuItem.Text = "Producto"
         '
         'MarcaToolStripMenuItem
         '
         Me.MarcaToolStripMenuItem.Name = "MarcaToolStripMenuItem"
-        Me.MarcaToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.MarcaToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.MarcaToolStripMenuItem.Text = "Parametros"
         '
         'BodegaToolStripMenuItem1
         '
         Me.BodegaToolStripMenuItem1.Name = "BodegaToolStripMenuItem1"
-        Me.BodegaToolStripMenuItem1.Size = New System.Drawing.Size(140, 22)
+        Me.BodegaToolStripMenuItem1.Size = New System.Drawing.Size(134, 22)
         Me.BodegaToolStripMenuItem1.Text = "Bodega"
         '
         'ProcesosToolStripMenuItem
@@ -91,25 +91,25 @@ Partial Class FrmPrincipal
         Me.ProcesosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductoxBodegaToolStripMenuItem, Me.OrdenPedidoToolStripMenuItem, Me.KardexToolStripMenuItem})
         Me.ProcesosToolStripMenuItem.Image = CType(resources.GetObject("ProcesosToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ProcesosToolStripMenuItem.Name = "ProcesosToolStripMenuItem"
-        Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
+        Me.ProcesosToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
         Me.ProcesosToolStripMenuItem.Text = "Procesos"
         '
         'ProductoxBodegaToolStripMenuItem
         '
         Me.ProductoxBodegaToolStripMenuItem.Name = "ProductoxBodegaToolStripMenuItem"
-        Me.ProductoxBodegaToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.ProductoxBodegaToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.ProductoxBodegaToolStripMenuItem.Text = "Producto por Bodega"
         '
         'OrdenPedidoToolStripMenuItem
         '
         Me.OrdenPedidoToolStripMenuItem.Name = "OrdenPedidoToolStripMenuItem"
-        Me.OrdenPedidoToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.OrdenPedidoToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.OrdenPedidoToolStripMenuItem.Text = "Orden de Pedido"
         '
         'KardexToolStripMenuItem
         '
         Me.KardexToolStripMenuItem.Name = "KardexToolStripMenuItem"
-        Me.KardexToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.KardexToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.KardexToolStripMenuItem.Text = "Kardex"
         '
         'ConsultasReportesToolStripMenuItem
@@ -117,25 +117,26 @@ Partial Class FrmPrincipal
         Me.ConsultasReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReporteDeExistenciasToolStripMenuItem, Me.ReporteDeProductosToolStripMenuItem, Me.ReporteDeKardeToolStripMenuItem})
         Me.ConsultasReportesToolStripMenuItem.Image = CType(resources.GetObject("ConsultasReportesToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultasReportesToolStripMenuItem.Name = "ConsultasReportesToolStripMenuItem"
-        Me.ConsultasReportesToolStripMenuItem.Size = New System.Drawing.Size(130, 20)
+        Me.ConsultasReportesToolStripMenuItem.Size = New System.Drawing.Size(138, 20)
         Me.ConsultasReportesToolStripMenuItem.Text = "Consultas/Reportes"
+        Me.ConsultasReportesToolStripMenuItem.Visible = False
         '
         'ReporteDeExistenciasToolStripMenuItem
         '
         Me.ReporteDeExistenciasToolStripMenuItem.Name = "ReporteDeExistenciasToolStripMenuItem"
-        Me.ReporteDeExistenciasToolStripMenuItem.Size = New System.Drawing.Size(195, 22)
+        Me.ReporteDeExistenciasToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
         Me.ReporteDeExistenciasToolStripMenuItem.Text = "Reporte de Existencias"
         '
         'ReporteDeProductosToolStripMenuItem
         '
         Me.ReporteDeProductosToolStripMenuItem.Name = "ReporteDeProductosToolStripMenuItem"
-        Me.ReporteDeProductosToolStripMenuItem.Size = New System.Drawing.Size(195, 22)
+        Me.ReporteDeProductosToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
         Me.ReporteDeProductosToolStripMenuItem.Text = "Reporte de Productos"
         '
         'ReporteDeKardeToolStripMenuItem
         '
         Me.ReporteDeKardeToolStripMenuItem.Name = "ReporteDeKardeToolStripMenuItem"
-        Me.ReporteDeKardeToolStripMenuItem.Size = New System.Drawing.Size(195, 22)
+        Me.ReporteDeKardeToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
         Me.ReporteDeKardeToolStripMenuItem.Text = "Reporte de Kardex"
         '
         'FrmPrincipal

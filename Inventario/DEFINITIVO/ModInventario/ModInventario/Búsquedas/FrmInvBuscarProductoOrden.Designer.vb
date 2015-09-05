@@ -22,11 +22,11 @@ Partial Class FrmInvBuscarProductoOrden
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.cmbfiltro = New System.Windows.Forms.ComboBox
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.TxtFiltro = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.DgvBusqueda = New System.Windows.Forms.DataGridView
+        Me.cmbfiltro = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TxtFiltro = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.DgvBusqueda = New System.Windows.Forms.DataGridView()
         CType(Me.DgvBusqueda, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '

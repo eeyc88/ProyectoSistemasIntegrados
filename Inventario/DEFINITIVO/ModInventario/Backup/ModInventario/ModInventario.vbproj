@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63A251F8-EF97-452A-BA4A-3DAC947723BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OrdenPedido.My.MyApplication</StartupObject>
+    <RootNamespace>OrdenPedido</RootNamespace>
+    <AssemblyName>ModInventario</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/ModInventario/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ModInventario.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ModInventario.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Npgsql2.0.10-bin-ms.net\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Npgsql2.0.10-bin-ms.net\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="policy.2.0.Npgsql, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Npgsql2.0.10-bin-ms.net\policy.2.0.Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Búsquedas\FrmInvBuscarProductoOrden.Designer.vb">
+      <DependentUpon>FrmInvBuscarProductoOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\FrmInvBuscarProductoOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conectar.vb" />
+    <Compile Include="DataSetInventario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetInventario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BODEGADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BODEGADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CIUDADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CIUDADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSet3.vb">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetReporte.designer.vb">
+      <DependentUpon>DataSetReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSetReporte.vb">
+      <DependentUpon>DataSetReporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DS_ProductoGeneral.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ProductoGeneral.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DS_ProductoGeneral.vb">
+      <DependentUpon>DS_ProductoGeneral.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DS_ReporteExistencia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ReporteExistencia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DS_ReporteExistencia.vb">
+      <DependentUpon>DS_ReporteExistencia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datos\KardexDatosCabecera.vb" />
+    <Compile Include="Datos\KardexDatosDetalle.vb" />
+    <Compile Include="Datos\OrdenDatosCabecera.vb" />
+    <Compile Include="Datos\OrdenDatosDetalle.vb" />
+    <Compile Include="Datos\ProductoDatos.vb" />
+    <Compile Include="dg_orden_enviada.designer.vb">
+      <DependentUpon>dg_orden_enviada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dg_orden_enviada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frmBuscaCodigoMarca.Designer.vb">
+      <DependentUpon>frmBuscaCodigoMarca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frmBuscaCodigoMarca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frm_buscacodigosubgrupo.Designer.vb">
+      <DependentUpon>frm_buscacodigosubgrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frm_buscacodigosubgrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoOrden.Designer.vb">
+      <DependentUpon>frm_BuscarCodigoOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Parametros.designer.vb">
+      <DependentUpon>frm_Parametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Parametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Bodega.designer.vb">
+      <DependentUpon>frm_Bodega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Bodega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Producto.Designer.vb">
+      <DependentUpon>frm_Producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frm_Producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\Frm_BuscarBodega.Designer.vb">
+      <DependentUpon>Frm_BuscarBodega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\Frm_BuscarBodega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoCiudad.Designer.vb">
+      <DependentUpon>frm_BuscarCodigoCiudad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoCiudad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoGrupo.Designer.vb">
+      <DependentUpon>frm_BuscarCodigoGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\Frm_BuscarCodigoProducto.Designer.vb">
+      <DependentUpon>Frm_BuscarCodigoProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\Frm_BuscarCodigoProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoZona.Designer.vb">
+      <DependentUpon>frm_BuscarCodigoZona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Búsquedas\frm_BuscarCodigoZona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmOrdenPedido.Designer.vb">
+      <DependentUpon>FrmOrdenPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmOrdenPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSets\PRODUCTODataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PRODUCTODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PRODUCTODataSet.vb">
+      <DependentUpon>PRODUCTODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reglas\KardexCabecera.vb" />
+    <Compile Include="Reglas\KardexDetalle.vb" />
+    <Compile Include="Reglas\OrdenPedidoCabecera.vb" />
+    <Compile Include="Reglas\OrdenPedidoDetalle.vb" />
+    <Compile Include="Reglas\Producto.vb" />
+    <Compile Include="Reportes\crMonto.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMonto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\RptExistenciasGrupo.vb">
+      <DependentUpon>RptExistenciasGrupo.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptExistenciaBodega.vb">
+      <DependentUpon>RptExistenciaBodega.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptExistenciaProducto.vb">
+      <DependentUpon>RptExistenciaProducto.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptExistencia.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptExistencia.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\RptMAXimoBodega.vb">
+      <DependentUpon>RptMAXimoBodega.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptMaximoGrupo.vb">
+      <DependentUpon>RptMaximoGrupo.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptMaximoProducto.vb">
+      <DependentUpon>RptMaximoProducto.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptMinimoGrupo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptMinimoGrupo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\RptMinimoProducto.vb">
+      <DependentUpon>RptMinimoProducto.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptMinimoBodega.vb">
+      <DependentUpon>RptMinimoBodega.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\RptMaXimo.vb">
+      <DependentUpon>RptMaXimo.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\crGrupoSubgrupo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crGrupoSubgrupo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crKardex.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crKardex.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crMovientos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMovientos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crProductoActivo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crProductoActivo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crProductoGeneral.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crProductoGeneral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crProductosInactivos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crProductosInactivos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\crProductoxBodega.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crProductoxBodega.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmContenedorReporte.Designer.vb">
+      <DependentUpon>frmContenedorReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmContenedorReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RptMinimo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptMinimo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\FrmInvExistencia.Designer.vb">
+      <DependentUpon>FrmInvExistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\FrmInvExistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\frm_cons_kardex.Designer.vb">
+      <DependentUpon>frm_cons_kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\frm_cons_kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Kardex.Designer.vb">
+      <DependentUpon>frm_Kardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Kardex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\frm_reporte.Designer.vb">
+      <DependentUpon>frm_reporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPT_INVENTARIO\frm_reporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSets\GRUPODataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GRUPODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\InventarioDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\MARCADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MARCADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DataSets\SubGruDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubGruDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SUBGRUPODataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SUBGRUPODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ZONADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZONADataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Búsquedas\FrmInvBuscarProductoOrden.resx">
+      <DependentUpon>FrmInvBuscarProductoOrden.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dg_orden_enviada.resx">
+      <DependentUpon>dg_orden_enviada.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frmBuscaCodigoMarca.resx">
+      <DependentUpon>frmBuscaCodigoMarca.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frm_buscacodigosubgrupo.resx">
+      <DependentUpon>frm_buscacodigosubgrupo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frm_BuscarCodigoOrden.resx">
+      <DependentUpon>frm_BuscarCodigoOrden.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frm_Parametros.resx">
+      <DependentUpon>frm_Parametros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frm_Bodega.resx">
+      <DependentUpon>frm_Bodega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frm_Producto.resx">
+      <DependentUpon>frm_Producto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\Frm_BuscarBodega.resx">
+      <DependentUpon>Frm_BuscarBodega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frm_BuscarCodigoCiudad.resx">
+      <DependentUpon>frm_BuscarCodigoCiudad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frm_BuscarCodigoGrupo.resx">
+      <DependentUpon>frm_BuscarCodigoGrupo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\Frm_BuscarCodigoProducto.resx">
+      <DependentUpon>Frm_BuscarCodigoProducto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Búsquedas\frm_BuscarCodigoZona.resx">
+      <DependentUpon>frm_BuscarCodigoZona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmOrdenPedido.resx">
+      <DependentUpon>FrmOrdenPedido.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crMonto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMonto.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptExistenciasGrupo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptExistenciasGrupo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptExistenciaBodega.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptExistenciaBodega.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptExistenciaProducto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptExistenciaProducto.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptExistencia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptExistencia.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMAXimoBodega.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMAXimoBodega.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMaximoGrupo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMaximoGrupo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMaximoProducto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMaximoProducto.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMinimoGrupo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMinimoGrupo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMinimoProducto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMinimoProducto.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMinimoBodega.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMinimoBodega.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMaXimo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMaXimo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crGrupoSubgrupo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crGrupoSubgrupo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crKardex.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crKardex.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crMovientos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMovientos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crProductoActivo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crProductoActivo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crProductoGeneral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crProductoGeneral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crProductosInactivos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crProductosInactivos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crProductoxBodega.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crProductoxBodega.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmContenedorReporte.resx">
+      <DependentUpon>frmContenedorReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptMinimo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptMinimo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT_INVENTARIO\FrmInvExistencia.resx">
+      <DependentUpon>FrmInvExistencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT_INVENTARIO\frm_cons_kardex.resx">
+      <DependentUpon>frm_cons_kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_Kardex.resx">
+      <DependentUpon>frm_Kardex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT_INVENTARIO\frm_reporte.resx">
+      <DependentUpon>frm_reporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSetInventario.xsc">
+      <DependentUpon>DataSetInventario.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetInventario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetInventario.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetInventario.xss">
+      <DependentUpon>DataSetInventario.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BODEGADataSet.xsc">
+      <DependentUpon>BODEGADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BODEGADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BODEGADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\BODEGADataSet.xss">
+      <DependentUpon>BODEGADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CIUDADataSet.xsc">
+      <DependentUpon>CIUDADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CIUDADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CIUDADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CIUDADataSet.xss">
+      <DependentUpon>CIUDADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetReporte.xsc">
+      <DependentUpon>DataSetReporte.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSetReporte.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DataSetReporte.xss">
+      <DependentUpon>DataSetReporte.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DS_ProductoGeneral.xsc">
+      <DependentUpon>DS_ProductoGeneral.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DS_ProductoGeneral.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ProductoGeneral.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\DS_ProductoGeneral.xss">
+      <DependentUpon>DS_ProductoGeneral.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DS_ReporteExistencia.xsc">
+      <DependentUpon>DS_ReporteExistencia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DS_ReporteExistencia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ReporteExistencia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\DS_ReporteExistencia.xss">
+      <DependentUpon>DS_ReporteExistencia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GRUPODataSet.xsc">
+      <DependentUpon>GRUPODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GRUPODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GRUPODataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\GRUPODataSet.xss">
+      <DependentUpon>GRUPODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\InventarioDataSet.xsc">
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\InventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventarioDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\InventarioDataSet.xss">
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MARCADataSet.xsc">
+      <DependentUpon>MARCADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MARCADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MARCADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\MARCADataSet.xss">
+      <DependentUpon>MARCADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PRODUCTODataSet.xsc">
+      <DependentUpon>PRODUCTODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PRODUCTODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PRODUCTODataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\PRODUCTODataSet.xss">
+      <DependentUpon>PRODUCTODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Code_Component.ico" />
+    <None Include="DataSets\SubGruDataSet.xsc">
+      <DependentUpon>SubGruDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SubGruDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SubGruDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\SubGruDataSet.xss">
+      <DependentUpon>SubGruDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SUBGRUPODataSet.xsc">
+      <DependentUpon>SUBGRUPODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SUBGRUPODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SUBGRUPODataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\SUBGRUPODataSet.xss">
+      <DependentUpon>SUBGRUPODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ZONADataSet.xsc">
+      <DependentUpon>ZONADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ZONADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ZONADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\ZONADataSet.xss">
+      <DependentUpon>ZONADataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clases\Clases.vbproj">
+      <Project>{79512A00-B0F8-495C-9F44-40389E287756}</Project>
+      <Name>Clases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

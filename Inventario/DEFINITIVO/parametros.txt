@@ -9,7 +9,7 @@ Public Class frm_Parametros
     Dim con As OleDbConnection
     Dim cmd As New OleDbCommand
     Dim dr As OleDbDataReader
-    Dim cs As String = "Provider=SQLOLEDB;Data Source=erick-PC\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=Inventario"
+    Dim cs As String = "Provider=SQLOLEDB;Data Source=INGRID-PC\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=Inventario"
     Public codigo As Integer
     Public dato_eliminar As String = ""
     Public dato_eliminar_zona As String = ""

@@ -317,3 +317,119 @@ C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\M
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
 C:\Users\InGriD\Desktop\INVENTARIO - FINAL\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbprojResolveAssemblyReference.cache
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\InGreek\Documents\ESPOL 2015-1\Sistema de Toma de Decisiones\Ejemplos\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe.config
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.exe
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.xml
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.pdb
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbprojResolveAssemblyReference.cache
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.exe
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.pdb
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ModInventario.xml
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.pdb
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\Npgsql.xml
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\de\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\es\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvBuscarProductoOrden.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.dg_orden_enviada.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frmBuscaCodigoMarca.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_buscacodigosubgrupo.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoOrden.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmPrincipal.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.login.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Parametros.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Bodega.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Producto.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarBodega.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoCiudad.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoGrupo.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Frm_BuscarCodigoProducto.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_BuscarCodigoZona.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmOrdenPedido.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.FrmInvExistencia.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_cons_kardex.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_Kardex.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.frm_reporte.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.Resources.resources
+C:\Users\CltControl\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\ModInventario.vbproj.GenerateResource.Cache
+C:\Users\erick\Desktop\Inventario\DEFINITIVO\ModInventario\ModInventario\obj\Debug\OrdenPedido.login.resources

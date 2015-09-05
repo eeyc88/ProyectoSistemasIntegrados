@@ -63,4 +63,8 @@
     Private Sub cmbfiltro_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbfiltro.SelectedIndexChanged
         TxtFiltro.Text = ""
     End Sub
+
+    Private Sub DgvBusqueda_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DgvBusqueda.CellContentClick
+
+    End Sub
 End Class
